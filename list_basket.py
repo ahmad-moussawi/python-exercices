@@ -16,8 +16,10 @@ import os.path
 # - * validate before "remove" item
 # - * validate before "clear"
 # - * on "show" show a message if the basket is empty
-# - * save the stock in file
-# - * save the basket in file
+# - * save the stock in file on exit
+# - * save the basket in file on exit
+# - * restore the stock from file on start
+# - * restore the basket from file on start
 
 
 stock = {
